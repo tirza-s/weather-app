@@ -1,0 +1,74 @@
+body {
+    font-family: "Gantari", serif;
+    color: #5e6163ed;
+    padding-top: 25px;
+}
+
+h1 {
+    margin-bottom: 0;
+    margin-top: 16px;
+}
+
+.weather-wrapper {
+    border: 1px solid #dde1e4ef;
+    border-radius: 10px;
+    display: block;
+    padding: 20px 15px;
+    margin-right: px;
+    margin: 0 auto;
+    width: 600px;
+
+}
+
+.input-city {
+    border: 1px solid #9dc1f0;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 8px;
+    width: 75%;
+}
+
+#search {
+    border-radius: 5px;
+    border: 1px solid #2a7be5;
+    background-color: #2a7be5;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 24px;
+    padding: 8px 24px;
+}
+
+.cloudy {
+    display: block;
+    margin-bottom: 1px;
+}
+
+.weather-data li {
+    list-style: none;
+}
+
+.weather {
+    display: flex;
+    justify-content: space-between;
+}
+
+#partly-cloudy {
+    font-size: 48px;
+    color: #f6be32f4;
+}
+
+.temperature-value {
+    font-size: 70px;
+    font-weight: 500;
+    color: #000;
+}
+
+.temperature,
+.temperature-blue {
+    position: relative;
+    top: -34px
+}
+
+.temperature-blue {
+    color: #2a7be5;
+}

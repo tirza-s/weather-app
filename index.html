@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+
+    <!--Style goes below-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Google font goes below-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gantari:ital@0;1&display=swap" rel="stylesheet">
+
+    <!--Google icon goes below-->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div class="weather-wrapper">
+        <header>
+            <div class="search-input">
+                <input type="text" placeholder="Type a city..." autofocus class="input-city" id="cityName">
+                <button id="search"> Search</button>
+            </div>
+        </header>
+
+        <main>
+            <div class="current-weather">
+                <h1>Sydney NSW, Australia</h1>
+                <span>Wednesday 22:00</span>
+                <span class="cloudy">Partly Cloudy</span>
+            </div>
+        </main>
+
+        <section>
+            <div class="weather">
+                <div>
+                    <span class="material-symbols-outlined" id="partly-cloudy">
+                        partly_cloudy_day
+                    </span>
+                    <span class="temperature-value">19</span>
+                    <span class="temperature">°C | </span>
+                    <span class="temperature-blue">°F</span>
+                </div>
+                <div class="weather-data">
+                    <ul>
+                        <li>Precipitation: 0%</li>
+                        <li>Humidity: 77%</li>
+                        <li>Wind: 8km/h</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
