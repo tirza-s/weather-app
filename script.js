@@ -40,7 +40,7 @@ function showWeather() {
         //display the weather info
         alert(`In ${city.charAt(0).toUpperCase() + city.slice(1)}, the temperature is currently ${celciusTemperature}°C | ${fahrenheitTemperature}°F and the humidity is ${humidity}%`);
     } else {
-        alert("City is not found!")
+        alert(`City is not found! please check directly to : https://www.google.com/search?q=weather+${city}`)
     }
 }
 
